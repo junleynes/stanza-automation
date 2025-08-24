@@ -156,4 +156,5 @@ if __name__ == "__main__":
     try:
         start_folder_watch(folder_mapping)
     except Exception as e:
+
         logging.error(f"Fatal error: {e}", exc_info=True)
